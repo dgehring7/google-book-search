@@ -1,3 +1,11 @@
+## Google Book Search
+
+## Introduction
+This is a React App (using JavaScript as well) that allows the user to search for book titles through Google and using the googlebooks API.
+When the user types in the name of a book, it should return an image of teh book cover, the author of the book, a brief description, and a link to see it on Google Books.
+Once the user finds a book they like, they should be able to save it to a list and come back to it later in a save list (still a work in progress).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +76,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributors
+Donald Gehring
+
+# Contact
+
+Feel free to contact me with any questions or visit my Github to see my other projects
+
+dgehring7@gmail.com
+github.com/dgehring7
+
+## Heroku Link
+https://git.heroku.com/protected-plains-39963.git
