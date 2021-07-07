@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card"
 
+// I'm not sure why the save function is not fully functional
 function SaveList(props) {
   return (props.books.length === 0) ? (
     <h4>No Saved Books</h4>

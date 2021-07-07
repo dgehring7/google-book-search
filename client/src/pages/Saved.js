@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import API from "../utils/API";
+import API from "../utils/api";
 import List from "../components/SearchList"
 
 class Saved extends Component {
@@ -8,7 +8,7 @@ class Saved extends Component {
     button: "Remove"
   };
 
-  componentDidMount() {
+    didGet() {
     API.getBooks()
         .then(res => this.setState({ books: res.data }))
         .catch(err => console.log(err))
@@ -17,7 +17,7 @@ class Saved extends Component {
   handleDelete = event => {
     event.preventDefault()
     API.deleteBook(event.target.value)
-      .then(res => this.componentDidMount())
+      .then(res => this.didGet())
       .catch(err => console.log(err))
   }
 
